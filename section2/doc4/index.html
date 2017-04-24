@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Documentation">
+		<link rel="icon" href="https://vyachs.github.io/doc_site//favicon.ico">
+		<title>Document4 - Documentation</title>
+		
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/highlight/default.css">
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/theme.css">
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/bootie-docs.css">
+		<link rel="stylesheet" href="https://vyachs.github.io/doc_site//css/site.css">
+	</head>
+
+<body role="document">
+
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="https://vyachs.github.io/doc_site//">Documentation</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li ><a href="https://vyachs.github.io/doc_site//">Home</a></li>
+			
+			
+				
+					<li ><a href="/doc_site/section1/doc2">Doc2</a></li>
+				
+					<li ><a href="/doc_site/about">About</a></li>
+				
+			
+				
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+						
+							<li><a href="https://vyachs.github.io/doc_site//categories/"></a></li>
+						
+							<li><a href="https://vyachs.github.io/doc_site//categories/section1">Section1</a></li>
+						
+							<li><a href="https://vyachs.github.io/doc_site//categories/section2">Section2</a></li>
+						
+						</ul>
+					</li>
+				
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+
+<div class="container">
+
+
+<div class="row">
+	<div class="col-sm-8 doc-main">
+		<main role="main">
+			<article>
+				<a id="title"></a>
+				<h1 class="doc-entry-title">Document4</h1>
+				<section>
+					
+
+<h2 id="chapter-1">Chapter 1</h2>
+
+<p>Some developers will stub nearly everything in a test with the
+intention of keeping their test fast. Here are my thoughts on
+stubbing: stub what makes sense, but don’t sacrifice the quality of
+your tests for the sake of a small speed boost. And never stub the
+system under test! That means if you’re testing the User model,
+no methods on that model should be stubbed.
+Solution: Preloaders
+Preloaders reduce startup time by loading up the Rails
+environment in the background and keep it running, rather than
+starting it from scratch each time. Depending on the size and
+complexity of your codebase, this could be anywhere from 2 to 30
+seconds!
+Spring comes by default with rails 4 apps. It’s worth
+understanding how it works and ensuring it is running properly.
+Zeus is another good option that some developers prefer to Spring.
+If you’re not happy with Spring for some reason, see if Zeus does
+it for you.</p>
+
+<h2 id="chapter-2">Chapter 2</h2>
+
+<p>Let’s be blunt for a second, debugging in Rails is a pain. Unlike
+other frameworks, it’s just not a straightforward process.
+Platforms like Microsoft’s Visual Studio and Apple’s Xcode offer
+extensive debugging suites built into their integrated development
+environments (IDEs) that allow you scrutinize your program from
+all angles.
+Since Ruby is a dynamic scripting language, Rails doesn’t ship
+with an IDE. We’re left to our own devices when it comes to
+debugging and as a result, we often waste precious time just trying
+to understand what our code is doing (and why it’s not doing what
+we told it to).
+In this chapter, I will cover strategies to make debugging in Rails a
+less painful process. The bulk of the chapter be devoted to Ruby
+debugging, but a Rails app often comprises more than just Ruby
+code. Therefore, I’ll touch on API and JavaScript debugging
+towards the end.
+While this might get the job done eventually, it has a few major
+drawbacks: You have to hope that you picked the right variable to
+inspect, otherwise you’ll have to go back, change the puts
+statements and then refresh the application to see the new values.
+This can be especially painful if it takes a good deal of setup to get
+the application in the right state (for example, filling out a form).
+You have to type out the name of each variable you want to
+inspect. Typing puts &ldquo;some_variable: #{some_variable}&rdquo; for
+each variable name gets old fast. There’s no way to explore the
+surrounding code and state of the application. All you learn is the
+contents of the variables you’ve chosen to print.</p>
+
+<h2 id="chapter-3">Chapter 3</h2>
+
+<p>If you prefer a more visual debugging environment, the Better
+Errors gem provides an intuitive, visual representation of your
+application in place of Rails’ default error page (see Making the
+Best of a Bad Situation for more on Better Errors).
+Since Better Errors only springs into action on application errors,
+a simple but powerful debugging trick is to raise an error in your
+code at the point you want to debug.</p>
+
+				</section>
+			</article>
+		</main>
+	</div> 
+
+	
+
+<div class="col-sm-3 col-sm-offset-1 doc-sidebar">
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			<ul>
+				<li><strong><a href="#title">Document4</a></strong></li>
+			</ul>
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#chapter-1">Chapter 1</a></li>
+<li><a href="#chapter-2">Chapter 2</a></li>
+<li><a href="#chapter-3">Chapter 3</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	<div class="sidebar-module">
+		<h4 class="sidebar-heading">Content</h4>
+		<ul class="sidebar-category-list">
+		
+			<li>
+				<a href="https://vyachs.github.io/doc_site//categories/">
+					<span class="doc-list-category"></span>
+				</a>
+				<ul>
+					<li><a href="/doc_site/">Main Page</a>
+					</li>
+				
+					<li><a href="/doc_site/another_root_page/">Another root page</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+			<li>
+				<a href="https://vyachs.github.io/doc_site//categories/section1">
+					<span class="doc-list-category">Section1</span>
+				</a>
+				<ul>
+					<li><a href="/doc_site/section1/doc1/">Document1</a>
+					</li>
+				
+					<li><a href="/doc_site/section1/doc2/">Document2</a>
+					</li>
+				
+					<li><a href="/doc_site/section1/doc3/">Document3</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+			<li>
+				<a href="https://vyachs.github.io/doc_site//categories/section2">
+					<span class="doc-list-category">Section2</span>
+				</a>
+				<ul>
+					<li>
+						<span class="active">Document4</span>
+						</li>
+				
+					<li><a href="/doc_site/section2/doc5/">Document5</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+		</ul>
+	</div>
+	<div class="sidebar-module">
+		<h4 class="sidebar-heading">Tags</h4>
+		<div class="tag-box">
+		
+			<a class="tag-item" href="https://vyachs.github.io/doc_site//tags/document">document</a>
+		
+			<a class="tag-item" href="https://vyachs.github.io/doc_site//tags/document_type1">document_type1</a>
+		
+			<a class="tag-item" href="https://vyachs.github.io/doc_site//tags/document_type2">document_type2</a>
+		
+		</div>
+	</div>
+	</div>
+</div>
+
+</div> 
+
+
+<hr />
+
+<div class="row">
+	<div class="col-sm-8">
+		<p class="doc-footer-em"><a href="#" onclick="resetSidebarPos()">Back to TOP</a></p>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+	
+	<p>Powered by <strong><a href="https://github.com/key-amb/hugo-theme-bootie-docs">Bootie Docs</a></strong> - theme for <a href="http://gohugo.io/">Hugo</a> by <a href="https://github.com/key-amb/">key-amb</a>.</p>
+</footer>
+
+
+
+<script src="https://vyachs.github.io/doc_site//js/jquery.min.js"></script>
+<script src="https://vyachs.github.io/doc_site//js/bootstrap.min.js"></script>
+
+<script src="https://vyachs.github.io/doc_site//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://vyachs.github.io/doc_site//js/ie10-viewport-bug-workaround.js"></script>
+<script src="https://vyachs.github.io/doc_site//js/bootie-docs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/about/</loc>
+    <lastmod>2017-04-24T12:29:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section1/doc1/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section1/doc2/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section1/doc3/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section2/doc4/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section2/doc5/</loc>
+    <lastmod>2017-04-21T15:40:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/</loc>
+    <lastmod>2017-04-21T15:32:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/another_root_page/</loc>
+    <lastmod>2017-04-21T15:31:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/categories/</loc>
+    <lastmod>2017-04-21T15:32:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/categories/</loc>
+    <lastmod>2017-04-21T15:32:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/tags/document/</loc>
+    <lastmod>2017-04-21T15:32:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/tags/document_type1/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/tags/document_type2/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/categories/section1/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section1/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/categories/section2/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/section2/</loc>
+    <lastmod>2017-04-21T15:46:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vyachs.github.io/doc_site/tags/</loc>
+    <lastmod>2017-04-21T15:32:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

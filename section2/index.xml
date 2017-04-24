@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Section2s on Documentation</title>
+    <link>https://vyachs.github.io/doc_site/section2/</link>
+    <description>Recent content in Section2s on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 15:46:27 +0300</lastBuildDate>
+    
+	<atom:link href="https://vyachs.github.io/doc_site/section2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Document4</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc4/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc4/</guid>
+      <description>Chapter 1 Some developers will stub nearly everything in a test with the intention of keeping their test fast. Here are my thoughts on stubbing: stub what makes sense, but don’t sacrifice the quality of your tests for the sake of a small speed boost. And never stub the system under test! That means if you’re testing the User model, no methods on that model should be stubbed. Solution: Preloaders Preloaders reduce startup time by loading up the Rails environment in the background and keep it running, rather than starting it from scratch each time.</description>
+    </item>
+    
+    <item>
+      <title>Document5</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc5/</link>
+      <pubDate>Fri, 21 Apr 2017 15:40:31 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc5/</guid>
+      <description>One caveat is that this requires you to be developing a feature that renders HTML output. This won’t work if you are building a JSON API or a JavaScript/AJAX hook, for example.
+Code example:
+def method_name(bar) # ... puts bar.length # ... end  </description>
+    </item>
+    
+  </channel>
+</rss>

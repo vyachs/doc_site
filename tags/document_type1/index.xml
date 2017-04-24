@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Document_type1 on Documentation</title>
+    <link>https://vyachs.github.io/doc_site/tags/document_type1/</link>
+    <description>Recent content in Document_type1 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 15:46:27 +0300</lastBuildDate>
+    
+	<atom:link href="https://vyachs.github.io/doc_site/tags/document_type1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Document1</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc1/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc1/</guid>
+      <description>For starters, it’s important to only create the data necessary for the test. Ask yourself if you actually need a list of 10 objects, or if 1 or 2 could suffice? Creating objects in the database (and rolling them back after each test) is generally the biggest time-suck in terms of test performance. It’s also worth reviewing your factories and ensuring that they’re not creating more data than they need. This can be especially pervasive since a factory might be used in hundreds of tests without realizing the extent of what other records it creates.</description>
+    </item>
+    
+    <item>
+      <title>Document3</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc3/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc3/</guid>
+      <description>Table Doc3    Tables Are Cool     col 3 is right-aligned $1600   col 2 is centered $12   zebra stripes are neat $1    Go to Document1</description>
+    </item>
+    
+    <item>
+      <title>Document4</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc4/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc4/</guid>
+      <description>Chapter 1 Some developers will stub nearly everything in a test with the intention of keeping their test fast. Here are my thoughts on stubbing: stub what makes sense, but don’t sacrifice the quality of your tests for the sake of a small speed boost. And never stub the system under test! That means if you’re testing the User model, no methods on that model should be stubbed. Solution: Preloaders Preloaders reduce startup time by loading up the Rails environment in the background and keep it running, rather than starting it from scratch each time.</description>
+    </item>
+    
+    <item>
+      <title>Another root page</title>
+      <link>https://vyachs.github.io/doc_site/another_root_page/</link>
+      <pubDate>Fri, 21 Apr 2017 15:31:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/another_root_page/</guid>
+      <description>Another root page content</description>
+    </item>
+    
+  </channel>
+</rss>

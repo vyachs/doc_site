@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Main Page on Documentation</title>
+    <link>https://vyachs.github.io/doc_site/</link>
+    <description>Recent content in Main Page on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 15:32:20 +0300</lastBuildDate>
+    
+	<atom:link href="https://vyachs.github.io/doc_site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://vyachs.github.io/doc_site/about/</link>
+      <pubDate>Mon, 24 Apr 2017 12:29:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/about/</guid>
+      <description>This page isn&amp;rsquo;t visible in the table of contents because &amp;lsquo;categories&amp;rsquo; is not set.</description>
+    </item>
+    
+    <item>
+      <title>Document1</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc1/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc1/</guid>
+      <description>For starters, it’s important to only create the data necessary for the test. Ask yourself if you actually need a list of 10 objects, or if 1 or 2 could suffice? Creating objects in the database (and rolling them back after each test) is generally the biggest time-suck in terms of test performance. It’s also worth reviewing your factories and ensuring that they’re not creating more data than they need. This can be especially pervasive since a factory might be used in hundreds of tests without realizing the extent of what other records it creates.</description>
+    </item>
+    
+    <item>
+      <title>Document2</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc2/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc2/</guid>
+      <description>Doc2 Content If you use external APIs in your app like payment processors, social sites for oauth, or even your own services, the overhead of making an HTTP request and waiting for the response can really weigh down your tests. It can also cause failures if the service is down and inflate your API usage (which can be a big deal if you’re charged per request, or only have some amount of requests available per hour).</description>
+    </item>
+    
+    <item>
+      <title>Document3</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc3/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc3/</guid>
+      <description>Table Doc3    Tables Are Cool     col 3 is right-aligned $1600   col 2 is centered $12   zebra stripes are neat $1    Go to Document1</description>
+    </item>
+    
+    <item>
+      <title>Document4</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc4/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc4/</guid>
+      <description>Chapter 1 Some developers will stub nearly everything in a test with the intention of keeping their test fast. Here are my thoughts on stubbing: stub what makes sense, but don’t sacrifice the quality of your tests for the sake of a small speed boost. And never stub the system under test! That means if you’re testing the User model, no methods on that model should be stubbed. Solution: Preloaders Preloaders reduce startup time by loading up the Rails environment in the background and keep it running, rather than starting it from scratch each time.</description>
+    </item>
+    
+    <item>
+      <title>Document5</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc5/</link>
+      <pubDate>Fri, 21 Apr 2017 15:40:31 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc5/</guid>
+      <description>One caveat is that this requires you to be developing a feature that renders HTML output. This won’t work if you are building a JSON API or a JavaScript/AJAX hook, for example.
+Code example:
+def method_name(bar) # ... puts bar.length # ... end  </description>
+    </item>
+    
+    <item>
+      <title>Another root page</title>
+      <link>https://vyachs.github.io/doc_site/another_root_page/</link>
+      <pubDate>Fri, 21 Apr 2017 15:31:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/another_root_page/</guid>
+      <description>Another root page content</description>
+    </item>
+    
+  </channel>
+</rss>

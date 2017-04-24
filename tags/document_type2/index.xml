@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Document_type2 on Documentation</title>
+    <link>https://vyachs.github.io/doc_site/tags/document_type2/</link>
+    <description>Recent content in Document_type2 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 15:46:27 +0300</lastBuildDate>
+    
+	<atom:link href="https://vyachs.github.io/doc_site/tags/document_type2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Document2</title>
+      <link>https://vyachs.github.io/doc_site/section1/doc2/</link>
+      <pubDate>Fri, 21 Apr 2017 15:46:27 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section1/doc2/</guid>
+      <description>Doc2 Content If you use external APIs in your app like payment processors, social sites for oauth, or even your own services, the overhead of making an HTTP request and waiting for the response can really weigh down your tests. It can also cause failures if the service is down and inflate your API usage (which can be a big deal if you’re charged per request, or only have some amount of requests available per hour).</description>
+    </item>
+    
+    <item>
+      <title>Document5</title>
+      <link>https://vyachs.github.io/doc_site/section2/doc5/</link>
+      <pubDate>Fri, 21 Apr 2017 15:40:31 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/section2/doc5/</guid>
+      <description>One caveat is that this requires you to be developing a feature that renders HTML output. This won’t work if you are building a JSON API or a JavaScript/AJAX hook, for example.
+Code example:
+def method_name(bar) # ... puts bar.length # ... end  </description>
+    </item>
+    
+    <item>
+      <title>Another root page</title>
+      <link>https://vyachs.github.io/doc_site/another_root_page/</link>
+      <pubDate>Fri, 21 Apr 2017 15:31:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/another_root_page/</guid>
+      <description>Another root page content</description>
+    </item>
+    
+  </channel>
+</rss>

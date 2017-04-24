@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation</title>
+    <link>https://vyachs.github.io/doc_site/categories/</link>
+    <description>Recent content on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 15:32:20 +0300</lastBuildDate>
+    
+	<atom:link href="https://vyachs.github.io/doc_site/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Main Page</title>
+      <link>https://vyachs.github.io/doc_site/</link>
+      <pubDate>Fri, 21 Apr 2017 15:32:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/</guid>
+      <description>Alternatively, for H1 and H2, an underline-ish style: Combined emphasis with asterisks and underscores.
+ First ordered list item Another item  Unordered sub-item1. Unordered sub-item2.  Actual numbers don&amp;rsquo;t matter, just that it&amp;rsquo;s a number  Ordered sub-item1 Ordered sub-item2  And another item.  I&amp;rsquo;m an inline-style link with title
+Inline-style: Main Page Img:
+Another root page</description>
+    </item>
+    
+    <item>
+      <title>Another root page</title>
+      <link>https://vyachs.github.io/doc_site/another_root_page/</link>
+      <pubDate>Fri, 21 Apr 2017 15:31:20 +0300</pubDate>
+      
+      <guid>https://vyachs.github.io/doc_site/another_root_page/</guid>
+      <description>Another root page content</description>
+    </item>
+    
+  </channel>
+</rss>
